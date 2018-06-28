@@ -1,0 +1,89 @@
+#wrapper {
+	margin:auto;
+	width:900px;
+}
+
+#login {
+	border: 1px solid #AEAEAE;
+	margin: 100px auto 0;
+	padding: 0;
+	width: 300px;
+}
+
+#adminmenu {
+	padding-left: 0;
+}
+
+#adminmenu li {
+	float: left;
+	list-style: none;
+	margin-right: 20px;
+}
+body {
+	background-color: #e5e5e5;;
+}
+
+.container {
+	padding-top: 80px;
+}
+
+.clear {
+	clear: both;
+}
+
+.error {
+	padding: 0.75em;
+	margin: 0.75em;
+	border: 1px solid #990000;
+	max-width: 400px;
+	color: #990000;
+	background-color: #FDF0EB;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+}
+
+.card {
+	position: relative;
+  border-radius: 0px;
+  border: 1px solid rgb(216, 216, 216);
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+
+	text-decoration: none;
+}
+.effect2
+{
+  position: relative;
+}
+.effect2:before, .effect2:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.effect2:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
